@@ -9,3 +9,4 @@ Create-react-app skeleton app
 ## Server
 
 Install XAMP, Composer, Laravel started
+Added FINISH
