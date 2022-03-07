@@ -1,1 +1,3 @@
-# react-laravel-counter
+# Introduction
+
+This is a react-laravel-counter application.
