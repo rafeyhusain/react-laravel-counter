@@ -13,6 +13,12 @@ use Illuminate\Http\Request;
 |
 */
 
+//use App\Http\Controllers\CounterController;
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::group([], function () {
+    Route::apiResource('counter', CounterController::class);
 });
